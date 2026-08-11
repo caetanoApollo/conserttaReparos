@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Bloqueio de pastas de sistema (boas práticas, caso você expanda o site no futuro)
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+
+# Apontamento direto para o Sitemap (Acelera a indexação do Google)
+Sitemap: https://www.conserttareparos.com.br/sitemap.xml

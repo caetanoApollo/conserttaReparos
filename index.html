@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- SEO Meta Tags Maximizadas -->
+    <title>Consertta Reparos | Manutenção e Reparos em Novo Hamburgo e Região</title>
+    <!-- Description otimizada para SEO Mobile (133 caracteres) -->
+    <meta name="description"
+        content="Reparos e consertos rápidos em Novo Hamburgo e região. Elétrica, hidráulica e manutenção geral. Peça seu orçamento sem compromisso!">
+    <!-- Keywords otimizadas (Foco em intenção de busca local) -->
+    <meta name="keywords"
+        content="marido de aluguel novo hamburgo, consertos residenciais, eletricista, encanador são leopoldo, manutenção comercial, reparos rápidos">
+    <meta name="author" content="Consertta Reparos">
+    <!-- Instruções avançadas para os robôs do Google (Rich Snippets) -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Open Graph Tags (Para ficar bonito ao compartilhar no WhatsApp/Redes Sociais) -->
+    <meta property="og:title" content="Consertta Reparos | Manutenção e Reparos Rápidos">
+    <meta property="og:description"
+        content="Especialistas em consertos de elétrica, hidráulica e manutenções em geral na região de Novo Hamburgo.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.conserttareparos.com.br/">
+    <meta property="og:image" content="https://www.conserttareparos.com.br/assets/logo.png">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Canonical Tag (Evita punição por conteúdo duplicado) -->
+    <link rel="canonical" href="https://www.conserttareparos.com.br/">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/logo.png" type="image/png">
+
+    <!-- Schema Markup (JSON-LD) para SEO Local Avançado -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Consertta Reparos",
+      "legalName": "Leandro Compagnoni da Silveira",
+      "taxID": "36.662.912/0001-76",
+      "image": "https://www.conserttareparos.com.br/assets/logo.png",
+      "url": "https://www.conserttareparos.com.br/",
+      "description": "Serviços de reparos gerais, elétrica, hidráulica e instalações para residências e empresas em Novo Hamburgo.",
+      "telephone": "+5551999683397",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Novo Hamburgo",
+        "addressRegion": "RS",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-29.6775", 
+        "longitude": "-51.1350"
+      },
+      "areaServed": [
+        "Novo Hamburgo",
+        "São Leopoldo",
+        "Estância Velha",
+        "Sapiranga",
+        "Campo Bom",
+        "Dois Irmãos",
+        "Ivoti"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "priceRange": "$$"
+    }
+    </script>
+
+    <!-- LCP Preload para mitigar bloqueio da árvore CSSOM -->
+    <link rel="preload" as="image" href="assets/hero-bg.jpg" fetchpriority="high">
+
+    <!-- Fontes do Google (Pré-conectadas para velocidade) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JavaScript Principal com Defer -->
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <!-- Header / Navbar Semântico -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#inicio" class="logo" aria-label="Voltar ao início">
+                <!-- Imagem do Logo inserida com atributos de dimensão (Mitigação CLS) -->
+                <img src="assets/logo.png" alt="Logotipo Consertta Reparos" class="logo-img" width="180" height="40">
+                <span class="logo-text"><strong>Consertta</strong> Reparos</span>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Abrir Menu" aria-expanded="false" id="menuBtn">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-menu" id="navMenu" aria-label="Navegação Principal">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <span class="nav-phone">WhatsApp: (51) 99968-3397</span>
+                    <button class="btn btn-primary" onclick="openWhatsApp('Geral')">Solicitar Orçamento</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Seção Hero -->
+        <section id="inicio" class="hero" aria-label="Introdução">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content fade-in">
+                <span class="badge">Solução Rápida e Confiável</span>
+                <h1>Imprevistos? Nós consertamos para você!</h1>
+                <p>Sabe aqueles pequenos reparos que você não tem tempo nem habilidade para fazer? Conte com a gente!
+                    Atendimento para sua casa, empresa ou condomínio.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-large btn-pulse" onclick="openWhatsApp('Urgência')">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                            </path>
+                        </svg>
+                        Chamar no WhatsApp
+                    </button>
+                    <a href="#servicos" class="btn btn-outline btn-large">Conheça Nossos Serviços</a>
+                </div>
+                <div class="hero-trust">
+                    <span class="trust-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CAF50" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Um profissional para tudo
+                    </span>
+                    <span class="trust-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CAF50" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Sem desperdício de tempo
+                    </span>
+                    <span class="trust-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CAF50" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        Orçamento sem compromisso
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Atendimento (Tipos) -->
+        <section class="attendance bg-light py-section" aria-label="Tipos de Atendimento">
+            <div class="container attendance-grid fade-in-up">
+                <article class="attendance-card">
+                    <h3>Atendimento Residencial</h3>
+                </article>
+                <article class="attendance-card">
+                    <h3>Atendimento Comercial</h3>
+                </article>
+                <article class="attendance-card">
+                    <h3>Atendimento Condominial</h3>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="about py-section" aria-labelledby="sobre-title">
+            <div class="container about-container">
+                <div class="about-text fade-in">
+                    <h2 id="sobre-title">Um só profissional. Todos os reparos.</h2>
+                    <p>Com a Consertta Reparos, você não precisa contratar um profissional diferente para cada problema
+                        na sua casa ou empresa. Oferecemos uma solução completa, rápida e com garantia de qualidade.</p>
+                    <ul class="about-benefits">
+                        <li><strong>Praticidade:</strong> Chame apenas um profissional para resolver tudo.</li>
+                        <li><strong>Economia:</strong> Controle melhor o que precisa ser feito, sem desperdiçar tempo e
+                            dinheiro.</li>
+                    </ul>
+                    <button class="btn btn-primary mt-4" onclick="openWhatsApp('Informações Gerais')">Falar com
+                        Especialista</button>
+                </div>
+                <figure class="about-image fade-in-right">
+                    <div class="img-placeholder"
+                        aria-label="Equipe da Consertta Reparos sorrindo em frente ao veículo de atendimento">
+                        <!-- Imagem com loading="lazy" e dimensões (Mitigação CLS e otimização LCP) -->
+                        <img src="assets/sobre-img.jpg" alt="Equipe de profissionais da Consertta Reparos"
+                            loading="lazy" width="600" height="400"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Seção Serviços -->
+        <section id="servicos" class="services bg-light py-section" aria-labelledby="servicos-title">
+            <div class="container">
+                <header class="section-header text-center fade-in">
+                    <h2 id="servicos-title">Soluções completas para sua casa e seu negócio</h2>
+                    <p>Selecione o serviço desejado e solicite um orçamento rápido.</p>
+                </header>
+                <div class="services-grid">
+                    <!-- Card 1 -->
+                    <article class="service-card fade-in-up">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-color)"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>Conserto</h3>
+                        <p>Manutenção preventiva e corretiva de equipamentos e estruturas.</p>
+                        <button class="btn btn-sm btn-outline-primary"
+                            onclick="openWhatsApp('Consertos Gerais')">Orçamento</button>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="service-card fade-in-up" style="transition-delay: 0.1s;">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-color)"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                </path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <h3>Instalação</h3>
+                        <p>Instalação de suportes, prateleiras, varais, quadros e eletrodomésticos.</p>
+                        <button class="btn btn-sm btn-outline-primary"
+                            onclick="openWhatsApp('Instalações')">Orçamento</button>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="service-card fade-in-up" style="transition-delay: 0.2s;">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-color)"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3>Elétrica</h3>
+                        <p>Troca de tomadas, disjuntores, chuveiros, lâmpadas e fiação.</p>
+                        <button class="btn btn-sm btn-outline-primary"
+                            onclick="openWhatsApp('Reparos Elétricos')">Orçamento</button>
+                    </article>
+
+                    <!-- Card 4 -->
+                    <article class="service-card fade-in-up" style="transition-delay: 0.3s;">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-color)"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>Hidráulica</h3>
+                        <p>Eliminação de vazamentos, troca de torneiras, sifões e reparos em encanamentos.</p>
+                        <button class="btn btn-sm btn-outline-primary"
+                            onclick="openWhatsApp('Reparos Hidráulicos')">Orçamento</button>
+                    </article>
+
+                    <!-- Card 5 -->
+                    <article class="service-card fade-in-up" style="transition-delay: 0.4s;">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-color)"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16.5 9.4l-9-5.19A2 2 0 0 0 4.5 5.94l9 5.2a2 2 0 0 0 3-1.74z"></path>
+                                <path d="M2 16h11v6H2z"></path>
+                            </svg>
+                        </div>
+                        <h3>Reparos Gerais</h3>
+                        <p>Pinturas pequenas, consertos em portas, fechaduras e rodapés.</p>
+                        <button class="btn btn-sm btn-outline-primary"
+                            onclick="openWhatsApp('Reparos Gerais')">Orçamento</button>
+                    </article>
+
+                    <!-- Card 6 -->
+                    <article class="service-card fade-in-up" style="transition-delay: 0.5s;">
+                        <div class="service-icon">
+                            <!-- Ícone de Floco de Neve -->
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-color)"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <line x1="12" y1="2" x2="12" y2="22"></line>
+                                <path d="M20 16l-4-4 4-4"></path>
+                                <path d="M4 8l4 4-4 4"></path>
+                                <path d="M16 4l-4 4-4-4"></path>
+                                <path d="M8 20l4-4 4 4"></path>
+                            </svg>
+                        </div>
+                        <h3>Ar Condicionado</h3>
+                        <p>Limpeza e higienização de ar condicionado.</p>
+                        <button class="btn btn-sm btn-outline-primary"
+                            onclick="openWhatsApp('Manutenção de Ar Condicionado')">Orçamento</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diferenciais / Passo a Passo -->
+        <section id="diferenciais" class="steps-section py-section" aria-labelledby="passos-title">
+            <div class="container">
+                <header class="section-header text-center fade-in">
+                    <h2 id="passos-title">Resolver seu problema é mais simples do que imagina</h2>
+                </header>
+                <ol class="steps-grid">
+                    <li class="step-item fade-in-up">
+                        <div class="step-number">1</div>
+                        <h4>Chame no WhatsApp</h4>
+                        <p>Entre em contato rápido e direto.</p>
+                    </li>
+                    <li class="step-item fade-in-up" style="transition-delay: 0.1s;">
+                        <div class="step-number">2</div>
+                        <h4>Avaliação Técnica</h4>
+                        <p>Analisamos a necessidade do reparo.</p>
+                    </li>
+                    <li class="step-item fade-in-up" style="transition-delay: 0.2s;">
+                        <div class="step-number">3</div>
+                        <h4>Aprovação do Valor</h4>
+                        <p>Orçamento transparente, sem surpresas.</p>
+                    </li>
+                    <li class="step-item fade-in-up" style="transition-delay: 0.3s;">
+                        <div class="step-number">4</div>
+                        <h4>Problema Resolvido</h4>
+                        <p>Execução rápida e com garantia.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Prova Social (Google Reviews Widget) -->
+        <section id="depoimentos" class="testimonials bg-light py-section" aria-labelledby="depoimentos-title">
+            <div class="container">
+                <header class="section-header text-center fade-in">
+                    <h2 id="depoimentos-title">O que nossos clientes dizem</h2>
+                    <p>Avaliações reais de quem já utilizou os serviços da Consertta Reparos.</p>
+                </header>
+                <div class="widget-container fade-in-up">
+                    <script defer async src='https://cdn.trustindex.io/loader.js?da352ba78912969deb469b592c6'></script>
+                </div>
+            </div>
+        </section>
+
+        <!-- Área de Cobertura (Google My Maps) -->
+        <section id="cobertura" class="coverage py-section" aria-labelledby="cobertura-title">
+            <div class="container coverage-container">
+                <div class="coverage-text fade-in">
+                    <h2 id="cobertura-title">Onde Atendemos</h2>
+                    <h3>Novo Hamburgo e Região Metropolitana</h3>
+                    <ul class="coverage-list">
+                        <li>Novo Hamburgo</li>
+                        <li>Estância Velha</li>
+                        <li>São Leopoldo</li>
+                        <li>Sapiranga</li>
+                        <li>Campo Bom</li>
+                        <li>Dois Irmãos</li>
+                        <li>Ivoti</li>
+                    </ul>
+                    <p class="mt-4">Sua cidade não está na lista? Consulte disponibilidade via WhatsApp.</p>
+                    <button class="btn btn-outline mt-3"
+                        onclick="openWhatsApp('Consulta de Área de Atendimento')">Consultar Região</button>
+                </div>
+                <div class="coverage-map fade-in-right">
+                    <div class="map-wrapper">
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1bGhBPgvufpZfryPAGWM1BH0KRHiNAVU&ehbc=2E312F"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            title="Mapa interativo da região de atendimento da Consertta Reparos"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="final-cta bg-primary py-section text-center" aria-label="Chamada para Ação Final">
+            <div class="container fade-in">
+                <h2>Precisa de um reparo?</h2>
+                <p>Chame a Consertta no WhatsApp e resolva seu problema hoje.</p>
+                <button class="btn btn-light btn-large mt-4 btn-pulse" onclick="openWhatsApp('Orçamento Final')">
+                    Chamar no WhatsApp (51) 99968-3397
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Semântico -->
+    <footer id="contato" class="footer">
+        <div class="container footer-grid">
+            <section class="footer-about">
+                <h3>Consertta Reparos</h3>
+                <p>Atendimento especializado para sua casa, empresa ou condomínio. Qualidade e confiança em um só lugar.
+                </p>
+            </section>
+            <nav class="footer-links" aria-label="Navegação do Rodapé">
+                <h4>Acesso Rápido</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                </ul>
+            </nav>
+            <address class="footer-contact" style="font-style: normal;">
+                <h4>Contato</h4>
+                <p>WhatsApp: (51) 99968-3397</p>
+                <p>Instagram: @conserttareparos</p>
+                <p>Horário: Seg a Sex - 08h às 18h</p>
+            </address>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Consertta Reparos. Todos os direitos reservados.</p>
+                <!-- Informações Legais da Empresa (CNPJ e Razão Social) -->
+                <p class="legal-info">Razão Social: Leandro Compagnoni da Silveira &bull; CNPJ: 36.662.912/0001-76</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
